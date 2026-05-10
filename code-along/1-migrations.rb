@@ -13,6 +13,9 @@
 # 1. in terminal, generate the model and table for Company
 # rails generate model _____
 
+
+
+
 # 2. open newly generated files
 
 # 3. in the db/migrate file, add relevant columns matching our domain model
@@ -26,3 +29,4 @@
 # - Add model and table for the Contact entity in our domain model
 
 # repeat steps 1-5 above.
+

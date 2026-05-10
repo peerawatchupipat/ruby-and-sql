@@ -5,4 +5,19 @@
 
 # String Class
 
+class Dog
+
+  def speak
+    puts "Woof!" 
+  end
+
+end
+
 # String Methods
+
+rex = Dog.new
+rex.speak
+
+
+bailey = Dog.new
+bailey.speak
