@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_05_10_203011) do
+ActiveRecord::Schema[8.1].define(version: 2026_05_10_220939) do
   create_table "companies", force: :cascade do |t|
     t.string "city"
     t.datetime "created_at", null: false
@@ -18,5 +18,14 @@ ActiveRecord::Schema[8.1].define(version: 2026_05_10_203011) do
     t.string "state"
     t.datetime "updated_at", null: false
     t.string "url"
+  end
+
+  create_table "contacts", force: :cascade do |t|
+    t.string "company_id"
+    t.datetime "created_at", null: false
+    t.string "email"
+    t.string "first_name"
+    t.string "last_name"
+    t.datetime "updated_at", null: false
   end
 end
